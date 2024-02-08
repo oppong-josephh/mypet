@@ -1,9 +1,10 @@
 import { Button, Navbar, Nav, Container } from 'react-bootstrap';
+import './Navbar.css'
 
 function NavExample() {
   return (
     <>
-      <Navbar bg="light" data-bs-theme="light">
+      <Navbar className='navbg' bg="light" data-bs-theme="light">
         <Container>
           <Navbar.Brand href="#home">MyPet</Navbar.Brand>
           <Nav className="ms-auto">
@@ -11,7 +12,7 @@ function NavExample() {
             <Nav.Link href="#features">blog</Nav.Link>
             <Nav.Link href="#pricing">contact</Nav.Link>
           </Nav>
-          <Button>get in touch</Button>
+          <Button className='button'>get in touch</Button>
         </Container>
       </Navbar>
     </>
