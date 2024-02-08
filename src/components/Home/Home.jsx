@@ -19,8 +19,9 @@ const Home = () => {
                 with passion and dedication. We look forward to introducing you
                 to our daily work and animals!
               </span>
-              <Button></Button>
-              <Button></Button>
+              <br /> <br />
+              <Button className="h-btn1">our animals</Button>
+              <Button className="h-btn2">contact us</Button>
             </div>
           </div>
 

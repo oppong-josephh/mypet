@@ -1,15 +1,19 @@
  .paw1 {
     position: absolute;
-    top: -10rem;
-    right: 10rem;
-    transform: scale(0.6);
-    opacity: 0.2;
+    top: -15rem;
+    right: -8rem;
+    transform: scale(0.25);
+    opacity: 0.18;
     z-index: 1;
   }
   
   .overlay-text {
     position: absolute;
     z-index: 2; 
+  }
+
+  .overlay-text>*{
+    margin-top: 1rem;
   }
 
   .overlay-text span:nth-of-type(1){
@@ -21,4 +25,25 @@
     font-size: 16px;
     color: var(--grey);
     font-weight: 500;
+   }
+
+   .h-btn2{
+    margin-left: 2rem;
+    border: 2px solid var(--yellow) !important;
+    color: var(--yellow) !important;
+    background-color: white !important;
+    transition: transform 0.9s ease;
+   }
+
+   .h-btn2:hover{
+    color: var(--white) !important;
+    background-color: var(--yellow) !important;
+    transform: translateY(-3px)
+   }
+
+   .h-btn1:hover{
+    border: 2px solid var(--yellow) !important;
+    color: var(--yellow) !important;
+    background-color: var(--white) !important;
+    transform: translateY(-3px)
    }
