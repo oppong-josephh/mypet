@@ -1,0 +1,24 @@
+ .paw1 {
+    position: absolute;
+    top: -10rem;
+    right: 10rem;
+    transform: scale(0.6);
+    opacity: 0.2;
+    z-index: 1;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    z-index: 2; 
+  }
+
+  .overlay-text span:nth-of-type(1){
+   font-size: 2.5rem;
+   font-weight: 500;
+  }
+
+  .overlay-text span:nth-of-type(2){
+    font-size: 16px;
+    color: var(--grey);
+    font-weight: 500;
+   }
