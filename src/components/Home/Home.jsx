@@ -1,6 +1,7 @@
 import { Button, Container } from "react-bootstrap";
 import "./Home.css";
 import Foot2 from "../../assets/foot2.png";
+import Cat1 from "../../assets/cat1.png";
 
 const Home = () => {
   return (
@@ -25,15 +26,10 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="col-md">
-            <span>Hello, new friend!</span>
-            <span>
-              We connect animals and humans - and have done so for many years
-              with passion and dedication. We look forward to introducing you to
-              our daily work and animals!
-            </span>
-            <Button></Button>
-            <Button></Button>
+          <div className="col-md ">
+            <div className="h-banner">
+              <img src={Cat1} alt="" />
+            </div>
           </div>
         </div>
       </Container>

@@ -47,3 +47,9 @@
     background-color: var(--white) !important;
     transform: translateY(-3px)
    }
+
+   img, .h-banner {
+    width: 100%;
+
+  }
+  
