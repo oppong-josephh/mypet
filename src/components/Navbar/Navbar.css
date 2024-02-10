@@ -14,7 +14,7 @@
   font-weight: 200 !important;
 }
 
-.button {
+/* .button {
   margin-left: 2rem;
   border: 2px solid var(--yellow) !important;
   color: var(--yellow) !important;
@@ -26,4 +26,4 @@
   color: var(--white) !important;
   background-color: var(--yellow) !important;
   transform: translateY(-3px);
-}
+} */

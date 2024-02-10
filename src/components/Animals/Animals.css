@@ -2,13 +2,34 @@
   width: 100%;
 }
 
-.animals-text span:nth-of-type(1) {
+.pet-text span:nth-of-type(1) {
   font-size: 2.5rem;
   font-weight: 500;
 }
 
-.animals-text span:nth-of-type(2) {
+.pet-text span:nth-of-type(2) {
     font-size: 16px;
     color: var(--grey);
     font-weight: 500;
   }
+
+  .a-paw1 {
+    position: absolute;
+    top: 30rem;
+    right: -18rem;
+    transform: scale(0.35);
+    opacity: 0.18;
+    z-index: 1;
+  }
+
+ .custom-card {
+    border-radius: 30px !important;
+ }
+
+ .custom-card2 {
+    border-radius: 30px !important;
+ }
+
+ .animals-btn{
+    padding: 10px 20rem !important;
+ }
