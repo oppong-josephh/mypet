@@ -1,15 +1,29 @@
-.navbg{
-    background-color: var(--white);
-    box-shadow: var(--boxShadow);
+.navbg {
+  background-color: var(--white);
+  box-shadow: var(--boxShadow);
 }
 
-.logo{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600 !important;
-    font-size: 25px !important;
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+  font-size: 25px !important;
 }
 
-.link{
-    color: var(--grey) !important;
-    font-weight: 200 !important;
+.link {
+  color: var(--grey) !important;
+  font-weight: 200 !important;
+}
+
+.button {
+  margin-left: 2rem;
+  border: 2px solid var(--yellow) !important;
+  color: var(--yellow) !important;
+  background-color: white !important;
+  transition: transform 0.9s ease;
+}
+
+.button:hover {
+  color: var(--white) !important;
+  background-color: var(--yellow) !important;
+  transform: translateY(-3px);
 }

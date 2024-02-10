@@ -5,10 +5,10 @@ import Cat1 from "../../assets/cat1.png";
 
 const Home = () => {
   return (
-    <>
-      <Container className="mt-5">
+    <div className="main">
+      <Container className="home-c">
         <div className="row">
-          <div className="col-md position-relative">
+          <div className="col-md position-relative mt-5">
             <div className="paw">
               <img src={Foot2} alt="" className="paw1 img-fluid" />
             </div>
@@ -26,14 +26,14 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="col-md ">
+          <div className="col-md mt-5">
             <div className="h-banner">
-              <img src={Cat1} alt="" />
+              <img className="img-fluid" src={Cat1} alt="" />
             </div>
           </div>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 
