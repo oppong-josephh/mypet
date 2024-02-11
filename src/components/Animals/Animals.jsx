@@ -240,7 +240,7 @@ const Animals = () => {
               </Card.ImgOverlay>
             </Card>
           </div> 
-        </div>
+        </div> <br />
         <Button className="animals-btnl" >See all of our little friends</Button>
       </Container>
     </>
