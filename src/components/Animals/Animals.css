@@ -31,7 +31,16 @@
  }
 
  .animals-btn{
-    padding: 10px 5rem !important;
+    padding: 10px 3rem !important;
+    transition: transform 0.9s ease;
+ }
+
+
+ .animals-btn:hover {
+    border: 2px solid var(--yellow) !important;
+    color: var(--yellow) !important;
+    background-color: var(--white) !important;
+    transform: translateY(-3px);
  }
 
  .animals-text span:nth-of-type(1){
