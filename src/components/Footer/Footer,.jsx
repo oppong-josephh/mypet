@@ -2,12 +2,7 @@ import "./Footer.css";
 import { Container } from "react-bootstrap";
 import Cat2 from "../../assets/cat2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPaw,
-  faPhone,
-  faEnvelope,
-  faLocationDot,
-} from "@fortawesome/free-solid-svg-icons";
+import { faPaw } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -30,13 +25,22 @@ const Footer = () => {
               <br /> <br />
               <ul className="list-unstyled">
                 <li>
-                  <strong>Phone:</strong> <span style={{color: "white", fontSize: "16px"}}>123456789</span>
+                  <strong>Phone:</strong>{" "}
+                  <span style={{ color: "white", fontSize: "16px" }}>
+                    123456789
+                  </span>
                 </li>
                 <li>
-                  <strong>Mail:</strong> <span style={{color: "white", fontSize: "16px"}}>office@mypet.com</span>
+                  <strong>Mail:</strong>{" "}
+                  <span style={{ color: "white", fontSize: "16px" }}>
+                    office@mypet.com
+                  </span>
                 </li>
                 <li>
-                 <strong>Address:</strong> <span style={{color: "white", fontSize: "16px"}}>233 Animal Road, 3495 NY</span>
+                  <strong>Address:</strong>{" "}
+                  <span style={{ color: "white", fontSize: "16px" }}>
+                    233 Animal Road, 3495 NY
+                  </span>
                 </li>
               </ul>
             </div>
@@ -44,11 +48,11 @@ const Footer = () => {
 
           <div className="col-md">
             <div className="terms">
-                <ul className="list-unstyled text-decoration-underline">
-                    <li>Privacy policy</li>
-                    <li>Cookie notice</li>
-                    <li>24/7 service</li>
-                </ul>
+              <ul className="list-unstyled text-decoration-underline">
+                <li>Privacy policy</li>
+                <li>Cookie notice</li>
+                <li>24/7 service</li>
+              </ul>
             </div>
           </div>
         </div>
