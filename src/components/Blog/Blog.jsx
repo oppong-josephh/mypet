@@ -46,7 +46,7 @@ const Blog = () => {
                 className="blog-custom-card2"
               />
               <Card.Body>
-                <Card.Title>6 reasons why your cat licks your hair.</Card.Title>
+                <Card.Title><strong>6 reasons why your cat licks your hair.</strong></Card.Title>
                 <Card.Text>
                   Did you ever wonder what it means when your cat have multiple
                   reasons and we...
@@ -81,7 +81,7 @@ const Blog = () => {
               />
               <Card.Body>
                 <Card.Title>
-                  What dog bed is the best for my little friend?
+                 <strong> What dog bed is the best for my little friend?</strong>
                 </Card.Title>
                 <Card.Text>
                   The choice is enormous. From premium luxury beds to very
@@ -116,7 +116,7 @@ const Blog = () => {
                 className="blog-custom-card2"
               />
               <Card.Body>
-                <Card.Title>15 foods you should never gives your cat.</Card.Title>
+                <Card.Title><strong>15 foods you should never gives your cat.</strong></Card.Title>
                 <Card.Text>
                   We all love our cats and we want to treat them right. But why
                   shouldn&apos;t I give my cat to eat? There are some...

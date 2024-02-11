@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaw } from "@fortawesome/free-solid-svg-icons";
+import { faPaw, faPhone, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import Map from "../../assets/map.png";
 
 const Contact = () => {
@@ -9,29 +9,30 @@ const Contact = () => {
     <>
       <Container className="mt-5">
         <div className="row">
-          <div className="col-md">
+          <div className="col-md-7">
             <div className="contact-text">
               <span>
-                Contact us{" "} &nbsp;&nbsp;&nbsp;
+                Contact us &nbsp;&nbsp;&nbsp;
                 <FontAwesomeIcon
                   icon={faPaw}
                   color="#e59500"
                   style={{
-                    marginBottom: "5px",
-                    marginLeft: "-15px",
-                    fontSize: "15px",
+                    marginLeft: "-40px",
+                    marginBottom: "10px",
+                    fontSize: "30px",
                   }}
                 />
               </span>
               <br /> <br />
               <span>
-                The reason why animals need our help are very diverse. Our
-                shelter is mainly a refuge for pets in need, such, dogs, cats,
-                small animals, birds and exotics. However, we also provide first
-                aid and care for any wild animals. Many of our charges have a
-                sad history with them and our task is to find a loving home and
-                the right match for them.
+                Where you can find us and how you can reach us. All the information compact for you.
               </span>
+
+              <ul className="list-unstyled">
+                <li><FontAwesomeIcon icon={faPhone} style={{color: "#e59500"}}/>&nbsp;&nbsp;<strong>Phone:</strong> 123456789</li>
+                <li><FontAwesomeIcon icon={faEnvelope} style={{color: "#e59500"}}/>&nbsp;&nbsp;<strong>Mail:</strong>office@mypet.com</li>
+                <li><FontAwesomeIcon icon={faLocationDot} style={{color: "#e59500"}}/>&nbsp;&nbsp;<strong>Address:</strong>233 Animal Road, 3495 NY</li>
+              </ul>
             </div>
           </div>
 
