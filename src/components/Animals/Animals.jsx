@@ -5,6 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaw } from "@fortawesome/free-solid-svg-icons";
 import Foot2 from "../../assets/foot2.png";
 import Cat8 from "../../assets/cat8.png";
+import Cat3 from "../../assets/cat3.png";
+import Dog1 from "../../assets/dog1.png";
+import Dog2 from "../../assets/dog2.png";
+import Cat6 from "../../assets/cat6.png";
+import Cat7 from "../../assets/cat7.png";
 
 const Animals = () => {
   return (
@@ -116,7 +121,15 @@ const Animals = () => {
 
           <div className="col-md-6 main-animals mt-5">
             <div className="animals-text">
-              <span>Our animals</span>
+              <span>Our animals <FontAwesomeIcon
+                    icon={faPaw}
+                    color="#e59500"
+                    style={{
+                      marginLeft: "-12px",
+                      marginBottom: "10px",
+                      fontSize: "30px"
+                    }}
+                  /></span>
               <br />
               <span>
                 By adopting animals from the shelter, you are not only giving
@@ -134,7 +147,7 @@ const Animals = () => {
           </div>
 
           <div className="col-md-4 animals-imgs">
-            <Card className="text-white  border-0 custom-card">
+            <Card className="text-white  border-0 custom-card mt-4">
               <Card.Img
                 src={Cat8}
                 alt="Card image"
@@ -151,10 +164,10 @@ const Animals = () => {
             </Card>
           </div>
 
-          <div className="col-md-4 animals-imgs">
+          <div className="col-md-4 animals-imgs mt-4">
             <Card className="text-white  border-0 custom-card">
               <Card.Img
-                src={Cat8}
+                src={Dog1}
                 alt="Card image"
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
@@ -169,10 +182,10 @@ const Animals = () => {
             </Card>
           </div>
 
-          <div className="col-md-4 animals-imgs">
+          <div className="col-md-4 animals-imgs mt-4">
             <Card className="text-white  border-0 custom-card">
               <Card.Img
-                src={Cat8}
+                src={Cat7}
                 alt="Card image"
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
@@ -187,10 +200,10 @@ const Animals = () => {
             </Card>
           </div>
 
-          <div className="col-md-4 animals-imgs">
+          <div className="col-md-4 animals-imgs mt-4">
             <Card className="text-white  border-0 custom-card">
               <Card.Img
-                src={Cat8}
+                src={Dog2}
                 alt="Card image"
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
@@ -205,10 +218,10 @@ const Animals = () => {
             </Card>
           </div>
 
-          <div className="col-md-4 animals-imgs">
+          <div className="col-md-4 animals-imgs mt-4">
             <Card className="text-white  border-0 custom-card">
               <Card.Img
-                src={Cat8}
+                src={Cat6}
                 alt="Card image"
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
@@ -223,10 +236,10 @@ const Animals = () => {
             </Card>
           </div>
 
-          <div className="col-md-4 animals-imgs">
+          <div className="col-md-4 animals-imgs mt-4">
             <Card className="text-white  border-0 custom-card">
               <Card.Img
-                src={Cat8}
+                src={Cat3}
                 alt="Card image"
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
@@ -240,8 +253,11 @@ const Animals = () => {
               </Card.ImgOverlay>
             </Card>
           </div> 
-        </div> <br />
-        <Button className="animals-btnl" >See all of our little friends</Button>
+          <div className="main-btn text-center"> <br />
+          <Button className="animals-btn" >See all of our little friends</Button>
+          </div>
+        </div>
+        
       </Container>
     </>
   );
