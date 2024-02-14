@@ -15,6 +15,7 @@ function NavExample() {
             icon={faPaw}
             color="#e59500"
             style={{ marginTop: "-20px", marginLeft: "-15px" }}
+            className="logo-font"
           />
           <Nav className="ms-auto " id="nav-links">
             <Nav.Link href="#home" className="link">
