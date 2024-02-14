@@ -12,7 +12,7 @@ const Home = () => {
             <div className="paw">
               <img src={Foot2} alt="" className="paw1 img-fluid" />
             </div>
-            <div className="overlay-text">
+            <div className="overlay-text ">
               <span>Hello, new friend!</span>
               <br /> <br />
               <span>
@@ -21,8 +21,10 @@ const Home = () => {
                 to our daily work and animals!
               </span>
               <br /> <br />
+              <div className="animals-btns">
               <Button className="h-btn1">our animals</Button>
               <Button className="h-btn2">contact us</Button>
+              </div>
             </div>
           </div>
 

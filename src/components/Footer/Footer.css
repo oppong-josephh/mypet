@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.fooetr-paw1 {
+.footer-paw1 {
   position: absolute;
   top: -25rem;
   right: 12rem;
@@ -19,4 +19,21 @@
 .terms{
     margin-top: 7rem;
     margin-left: 20rem;
+}
+
+@media screen and (max-width: 480px){
+  .footer-paw1 {
+    position: absolute;
+    top: -17rem;
+    right: 1rem;
+    transform: scale(0.8);
+    z-index: -1;
+  }
+  .main-footer {
+    margin-top: 14rem;
+  }
+  .terms{
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
 }

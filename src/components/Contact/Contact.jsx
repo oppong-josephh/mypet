@@ -14,10 +14,11 @@ const Contact = () => {
               <span>
                 Contact us &nbsp;&nbsp;&nbsp;
                 <FontAwesomeIcon
+                className="contact-font"
                   icon={faPaw}
                   color="#e59500"
                   style={{
-                    marginLeft: "-40px",
+                    marginLeft: "-44px",
                     marginBottom: "10px",
                     fontSize: "30px",
                   }}
@@ -30,8 +31,8 @@ const Contact = () => {
 
               <ul className="list-unstyled">
                 <li><FontAwesomeIcon icon={faPhone} style={{color: "#e59500"}}/>&nbsp;&nbsp;<strong>Phone:</strong> 123456789</li>
-                <li><FontAwesomeIcon icon={faEnvelope} style={{color: "#e59500"}}/>&nbsp;&nbsp;<strong>Mail:</strong>office@mypet.com</li>
-                <li><FontAwesomeIcon icon={faLocationDot} style={{color: "#e59500"}}/>&nbsp;&nbsp;<strong>Address:</strong>233 Animal Road, 3495 NY</li>
+                <li><FontAwesomeIcon icon={faEnvelope} style={{color: "#e59500"}}/>&nbsp;&nbsp;<strong>Mail:</strong> office@mypet.com</li>
+                <li><FontAwesomeIcon icon={faLocationDot} style={{color: "#e59500"}}/>&nbsp;&nbsp;<strong>Address:</strong> 233 Animal Road, 3495 NY</li>
               </ul>
             </div>
           </div>

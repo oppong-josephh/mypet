@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md position-relative mt-5">
             <div className="paw">
-              <img src={Cat2} alt="" className="fooetr-paw1 img-fluid" />
+              <img src={Cat2} alt="" className="footer-paw1 img-fluid" />
             </div>
             <div className="footer-text">
               <span>

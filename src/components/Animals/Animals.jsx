@@ -119,7 +119,7 @@ const Animals = () => {
             </div>
           </div>
 
-          <div className="col-md-6 main-animals mt-5">
+          <div className="col-md-6 main-animals mt-lg-5">
             <div className="animals-text">
               <span>Our animals <FontAwesomeIcon
                     icon={faPaw}
@@ -154,7 +154,7 @@ const Animals = () => {
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
               />
-              <Card.ImgOverlay style={{marginTop: "18rem"}}>
+              <Card.ImgOverlay style={{marginTop: "17rem"}}>
                 <Card.Title>Charlie</Card.Title>
                 <Card.Text className="text-white-50 ">
                 5 years old, male
@@ -172,7 +172,7 @@ const Animals = () => {
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
               />
-              <Card.ImgOverlay style={{marginTop: "18rem"}}>
+              <Card.ImgOverlay style={{marginTop: "17rem"}}>
                 <Card.Title>Luna</Card.Title>
                 <Card.Text className="text-white-50 ">
                 2 years old, female
@@ -190,7 +190,7 @@ const Animals = () => {
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
               />
-              <Card.ImgOverlay style={{marginTop: "18rem"}}>
+              <Card.ImgOverlay style={{marginTop: "17rem"}}>
                 <Card.Title>Jeff</Card.Title>
                 <Card.Text className="text-white-50 ">
                 9 months old, male
@@ -208,7 +208,7 @@ const Animals = () => {
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
               />
-              <Card.ImgOverlay style={{marginTop: "18rem"}}>
+              <Card.ImgOverlay style={{marginTop: "17rem"}}>
                 <Card.Title>Bruno</Card.Title>
                 <Card.Text className="text-white-50 ">
                 2 years old, male
@@ -226,7 +226,7 @@ const Animals = () => {
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
               />
-              <Card.ImgOverlay style={{marginTop: "18rem"}}>
+              <Card.ImgOverlay style={{marginTop: "17rem"}}>
                 <Card.Title>Lizzi</Card.Title>
                 <Card.Text className="text-white-50 ">
                 7 months old, female
@@ -244,7 +244,7 @@ const Animals = () => {
                 className="img-fluid custom-card2"
                 style={{width: "21rem"}}
               />
-              <Card.ImgOverlay style={{marginTop: "18rem"}}>
+              <Card.ImgOverlay style={{marginTop: "17rem"}}>
                 <Card.Title>Walter</Card.Title>
                 <Card.Text className="text-white-50 ">
                 7 years old, male

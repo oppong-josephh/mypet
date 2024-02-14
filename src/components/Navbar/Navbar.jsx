@@ -16,7 +16,7 @@ function NavExample() {
             color="#e59500"
             style={{ marginTop: "-20px", marginLeft: "-15px" }}
           />
-          <Nav className="ms-auto">
+          <Nav className="ms-auto " id="nav-links">
             <Nav.Link href="#home" className="link">
               our animals
             </Nav.Link>
@@ -26,8 +26,8 @@ function NavExample() {
             <Nav.Link href="#pricing" className="link">
               contact
             </Nav.Link>
+            <Button className="button">get in touch</Button>
           </Nav>
-          <Button className="button">get in touch</Button>
         </Container>
       </Navbar>
     </>

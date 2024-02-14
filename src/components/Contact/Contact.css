@@ -8,3 +8,14 @@
     color: var(--grey);
     font-weight: 500;
 }
+
+ /* Mobile screens */
+ @media screen and (max-width: 480px){
+    .contact-text span:nth-of-type(1){
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .contact-font{
+        margin-left: -35px !important;
+    }
+ }
